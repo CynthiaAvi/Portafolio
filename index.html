@@ -32,7 +32,7 @@
       <nav class="nav container">
         <a href="#" class="nav__logo">
           <img
-            src="/img/CynthiaLogo.png"
+            src="/img/Nombre Blanco.png"
             alt=""
             class="nav__logo-img"
           />
@@ -91,15 +91,16 @@
 
                 <!-- Descripcion -->
                 <div class="home__data">
-                  <h1 class="home__title">
+                  <h1 class="home__title" title="">
                     "You Can Be <br />
 
                     Anything" <br />
 
                   </h1>
                   <p class="home__description">
-                    I am a Java Fullstack Developer Front End & Back End / Pharmaceutical Biologist.
+                    I am a Java Fullstack Developer Front End & Back End &  Pharmaceutical Biologist.
                     <br />
+                    <br/>
                     Isn't the world of technology just fabulous? I'm so amazed by how it positively influences our real world!
                   </p>
                 </div>
@@ -119,27 +120,31 @@
           ABOUT ME
         </h2>
       
-        <p class="AboutMe_description">
+        <p class="AboutMe_description" >
           I worked for over 6 years in the healthcare field, with extensive knowledge in clinical laboratory and hospital administration. Currently, I am navigating the IT world, developing my skills as a Java Fullstack Developer (Front End and Back End), with an incredible thirst to make my way in the technology sector and leave a mark.
+<br>
+<br>
 
           I am a dynamic, proactive, empathetic person with a strong curiosity to learn new things and improve my personal, professional, and work-related skills.
         </p>
 
         <div class="container_button">
-          <a  class="button button--ghost">DOWNLOAD CV </a>
+          <a  class="button button--ghost" id="DownloadButton" >DOWNLOAD CV </a>
         </div>
 
       </section>
 
 
-
+<!----SKILLS------->
       <section class="section Skills" id="skills">
         <h2 class="section__title">
        
           SKILLS
         </h2>
-        
-
+         <div>
+        <h4 class="section__titleskills">
+          PROGRAMING LENGUAGES
+        </h4>
         <div class="category__container container grid">
           <div class="category__data">
             <div class="contentImgCate">
@@ -180,22 +185,24 @@
            
             <h3 class="category__title">Git Hub</h3>
           </div>
-
-
+          </div>
+         
+          <br>
+            <h4 class="section__titleskills">
+            SOFTWARES
+          </h4>
+          <div class="category__container container grid">
           <div class="category__data">
             <div class="contentImgCate">
               <box-icon name='figma' type='logo' animation='tada' color='#ffffff' size="8rem"></box-icon>
             </div>
-           
             <h3 class="category__title">Figma</h3>
           </div>
-
 
           <div class="category__data">
             <div class="contentImgCate">
               <box-icon name='trello' type='logo' animation='tada' color='#ffffff' size="8rem"></box-icon>
             </div>
-           
             <h3 class="category__title">Trello</h3>
           </div>
 
@@ -203,7 +210,6 @@
             <div class="contentImgCate">
               <box-icon name='visual-studio' type='logo' animation='tada' color='#ffffff' size="8rem"></box-icon>
             </div>
-           
             <h3 class="category__title">VS Code</h3>
           </div>
 
@@ -211,21 +217,120 @@
             <div class="contentImgCate">
               <box-icon name='java' type='logo' animation='tada' color='#ffffff' size="8rem"></box-icon>
             </div>
-           
             <h3 class="category__title">Java</h3>
           </div>
-    
+    </div>
+
+          <br>
+          <h4 class="section__titleskills">
+     
+          LENGUAGES
+        </h4>
+        <div class="category__container container grid">
+          <div class="category__data">
+            <div class="contentImgCate">
+              <box-icon name='flag' animation='tada' rotate='90' color='#ffffff' size="8rem" ></box-icon>
+               </div>
+            <h3 class="category__title">Spanish Native </h3>
+          </div>
+        </h4>
+        <div class="category__container container grid">
+          <div class="category__data">
+            <div class="contentImgCate">
+              <box-icon name='flag' type='solid' animation='tada' color='#ffffff' size="8rem"></box-icon>
+            </div>
+            <h3 class="category__title">English B1</h3>
+          </div>
         </div>
       </section>
+
+<!----Proyectos------->
+<section class="section projects" id="projects">
+<h2 class="section__title">
+       
+  PROJECTS
+</h2>
+<div class="category-containerprojects">
+  <div class="category__data">
+    <div class="contentImgCatep">
+      <img src="./img/Centro mujeres.jpeg" alt="Comunnity Center" >
+    </div>
+   
+    <h3 class="category__title"> Community <br>
+      Center</h3>
+  </div>
+
+  <div class="category__data">
+    <div class="contentImgCatep">
+      <img src="./img/Centro mujeres.jpeg" alt="Gallery" >
+    </div>
+   
+    <h3 class="category__title">Gallery</h3>
+  </div>
+
+<div class="category__data">
+  <div class="contentImgCatep">
+    <img src="./img/Centro mujeres.jpeg" alt="Next Proyect" >
+  </div>
+ 
+  <h3 class="category__title"> Project</h3>
+</div>
+
+</div>
+</section>
+
+
+<!----FORMULARIO------->
+<section class="section formulario" id="contact">
+<div class="Formulario">
+<h2 class="section__title">
+       
+  CONTACT
+</h2>
+<section>
+<form >
+<div class="formulario-contenedor">
+  <div class="form-group">
+    <label for="FullName"></label>
+    <input type="text" class="form-control" id="FullName"  placeholder="Full Name">
+  </div>
+
+  <div class="form-group">
+    <label for="Email"></label>
+    <input type="email" class="form-control" id="Email" placeholder="E-mail" >
+  </div>
+
+  <div class="form-group">
+    <label for="Message"></label>
+    <input type="text" class="form-control" id="Message" placeholder="Message">
+  </div>
+
+  <div class="buttons-container">
+  <div class="container_button">
+    <a  class="button button--ghostform" id="SubmitButton" >SUBMIT</a>
+  </div>
+  
+  <div class="container_button">
+    <a  class="button button--ghostform" id="ClearButton" >CLEAR</a>
+  </div>
+</div>
+</div>
+
+  <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+</form>
+</section>
+</div>
+</section>
     </main>
 
 
 
     <!--Pie de pagina-->
     <footer class="footer section">
-`
+
         <div class="footer__content">
           <div class="footer__social">
+            <p> © 2023 |  CA </p>
             <a
               href="https://www.github.com/"
               target="_blank"
