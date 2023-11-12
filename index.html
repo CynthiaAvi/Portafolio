@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link de CSS  normal-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cynthia's Portafolio</title>
+
+    <!-- iconos de boxicon y swipper -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- iconos de pagina web  -->
+    <link
+    rel="shortcut icon"
+    href="img/barbielogo.png"
+    type="image/x-icon"
+  />
+  </head>
+
+
+  <body>
+    <!-- Encbezado -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img
+            src="/img/CynthiaLogo.png"
+            alt=""
+            class="nav__logo-img"
+          />
+      <!-- Lista en el Encbezado en el menu del navbar -->    
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">HOME</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">ABOUT ME</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">SKILLS</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">PROJECTS</a>
+            </li>
+            <a href="#contact" class="button button--ghost">CONTACT</a>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+          <img src="assets/img/ff2.png" alt="" class="nav__img" />
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+
+      <!--Menu inicial-->
+    <main class="main">
+      <section class="home container" id="home">
+
+        <!--animacion burbuja swapper para la foto-->
+        <div class="swiper home-swiper">
+          <div class="swiper-wrapper">
+            <section class="swiper-slide">
+              <div class="home__content grid">
+                <article class="content_burbuja">
+
+                  <!--Foto de perfil-->
+                  <img class="box" src="/img/PerfilCyn.jpg"></img>
+
+                  <div class="blob">
+                    <img src="./img/burbuja.svg"></img>
+                  </div>
+
+                  <div class="blob">
+                    <img src="./img/burbujasecun.svg"></img>
+                  </div>
+                </article>
+
+                <!-- Descripcion -->
+                <div class="home__data">
+                  <h1 class="home__title">
+                    "You Can Be <br />
+
+                    Anything" <br />
+
+                  </h1>
+                  <p class="home__description">
+                    I am a Java Fullstack Developer Front End & Back End / Pharmaceutical Biologist.
+                    <br />
+                    Isn't the world of technology just fabulous? I'm so amazed by how it positively influences our real world!
+                  </p>
+                </div>
+              </div>
+            </section>
+          
+          
+          </div>
+        
+        </div>
+      </section>
+
+
+      <!--Categorias-->
+      <section class="section About me" id="about">
+        <h2 class="section__title">
+          ABOUT ME
+        </h2>
+      
+        <p class="AboutMe_description">
+          I worked for over 6 years in the healthcare field, with extensive knowledge in clinical laboratory and hospital administration. Currently, I am navigating the IT world, developing my skills as a Java Fullstack Developer (Front End and Back End), with an incredible thirst to make my way in the technology sector and leave a mark.
+
+          I am a dynamic, proactive, empathetic person with a strong curiosity to learn new things and improve my personal, professional, and work-related skills.
+        </p>
+
+        <div class="container_button">
+          <a  class="button button--ghost">DOWNLOAD CV </a>
+        </div>
+
+      </section>
+
+
+
+      <section class="section Skills" id="skills">
+        <h2 class="section__title">
+       
+          SKILLS
+        </h2>
+        
+
+        <div class="category__container container grid">
+          <div class="category__data">
+            <div class="contentImgCate">
+              <box-icon name='html5' type='logo' animation='tada' color='#ffffff' size="8rem"></box-icon>
+            </div>
+           
+            <h3 class="category__title">HTML</h3>
+          </div>
+
+          <div class="category__data">
+            <div class="contentImgCate">
+              <box-icon name='css3' type='logo' animation='tada' color='#ffffff' size="8rem"></box-icon>
+            </div>
+           
+            <h3 class="category__title">CSS</h3>
+          </div>
+
+          <div class="category__data">
+            <div class="contentImgCate">
+              <box-icon name='javascript' type='logo' animation='tada' color='#ffffff' size="8rem"></box-icon>
+            </div>
+           
+            <h3 class="category__title">Java Script</h3>
+          </div>
+
+          <div class="category__data">
+            <div class="contentImgCate">
+              <box-icon name='bootstrap' type='logo' animation='tada' color='#ffffff' size="8rem"></box-icon>
+            </div>
+           
+            <h3 class="category__title">BootStrap</h3>
+          </div>
+
+          <div class="category__data">
+            <div class="contentImgCate">
+              <box-icon name='github' type='logo' animation='tada' color='#ffffff' size="8rem"></box-icon>
+            </div>
+           
+            <h3 class="category__title">Git Hub</h3>
+          </div>
+
+
+          <div class="category__data">
+            <div class="contentImgCate">
+              <box-icon name='figma' type='logo' animation='tada' color='#ffffff' size="8rem"></box-icon>
+            </div>
+           
+            <h3 class="category__title">Figma</h3>
+          </div>
+
+
+          <div class="category__data">
+            <div class="contentImgCate">
+              <box-icon name='trello' type='logo' animation='tada' color='#ffffff' size="8rem"></box-icon>
+            </div>
+           
+            <h3 class="category__title">Trello</h3>
+          </div>
+
+          <div class="category__data">
+            <div class="contentImgCate">
+              <box-icon name='visual-studio' type='logo' animation='tada' color='#ffffff' size="8rem"></box-icon>
+            </div>
+           
+            <h3 class="category__title">VS Code</h3>
+          </div>
+
+          <div class="category__data">
+            <div class="contentImgCate">
+              <box-icon name='java' type='logo' animation='tada' color='#ffffff' size="8rem"></box-icon>
+            </div>
+           
+            <h3 class="category__title">Java</h3>
+          </div>
+    
+        </div>
+      </section>
+    </main>
+
+
+
+    <!--Pie de pagina-->
+    <footer class="footer section">
+`
+        <div class="footer__content">
+          <div class="footer__social">
+            <a
+              href="https://www.github.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+            <i class='bx bxl-github'></i>
+            </a>
+
+
+            <a
+              href="https://www.Linkedin.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+            <i class='bx bxl-linkedin-square'></i>
+            </a>
+
+          </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>
