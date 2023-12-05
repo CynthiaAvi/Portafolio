@@ -39,6 +39,6 @@ const submitButton = document.getElementById("SubmitButton");
 if (submitButton) {
   submitButton.addEventListener("click", () => {
  
-    alert("Message sent! I will response as soon as posible");
+    alert("Hello, your message is sent! I will respond as soon as posible <3");
   });
 }
