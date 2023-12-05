@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap");
 
 
+
 /* VARIABLES para CSS*/
 
 :root {
@@ -63,6 +64,7 @@
   }
 }
 /*=============== BASE ===============*/
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -781,8 +783,8 @@ display: flex;
 }
 .content_burbuja .blob {
   position: absolute;
-  width: 500px;
-  height: 500px;
+  width: 550px;
+  height: 550px;
 }
 .content_burbuja .blob:nth-child(2) {
   filter: blur(20px);
@@ -793,8 +795,8 @@ display: flex;
   z-index: 100;
   width: 400px;
   height: 400px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-size: 200%;
   background-position: center center;
   transform-origin: 50% 50%;
