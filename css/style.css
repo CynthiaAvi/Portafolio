@@ -219,7 +219,13 @@ button {
 .form-control {
   background-color: transparent; 
   color: white; 
-  padding: 10px; 
+  padding: 10px;
+  width: 100%; /* Hace que el textarea ocupe todo el ancho de su contenedor */
+  border: none; /* Elimina el borde */
+  outline: none; /* Elimina el resalte al enfocar */
+  background: transparent; /* Fondo transparente */
+  resize: none; /* Evita que el usuario cambie el tamaño */
+  /* Agrega aquí más estilos según necesites (fuente, color, padding, etc.) */
 }
 
 .form-control:focus {
