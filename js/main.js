@@ -60,7 +60,7 @@ if (submitButton) {
       fullNameInput.value = "";
       return;
   } else if (!regexName.test(fullNameInput.value)) {
-      alert("The entered name is not valid.");
+      alert("The entered name is not valid, please make sure it contains more than 3 letters");
       fullNameInput.value = ""; 
       return;
   }
@@ -70,18 +70,14 @@ if (submitButton) {
       emailInput.value = "";
       return;
   } else if (!regexEmail.test(emailInput.value)) {
-      alert("The entered email address is not valid.");
+      alert("The entered e-mail address is not in a valid e-mail format.");
       emailInput.value = "";
 
       return;
   }
 
   if(messageInput.value === "") {
-      alert("Please enter your message.");
-      messageInput.value = "";
-      return;
-  } else if (!regexMessage.test(messageInput.value)) {
-      alert("The entered message is not valid.");
+      alert("The entered message should not be empty.");
       messageInput.value = "";
       return;
   }
