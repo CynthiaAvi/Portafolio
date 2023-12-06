@@ -19,6 +19,10 @@ function linkAction() {
 }
 navLink.forEach((item) => item.addEventListener("click", linkAction));
 
+
+/* Animaciones */
+
+
 /*<---Formulario----->*/
 
 const clearButton = document.getElementById("ClearButton");
